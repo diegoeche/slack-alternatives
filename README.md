@@ -34,13 +34,21 @@ Some bullet-points about licenses/costs of each solution:
     </tr>
 </table>
 
-## The Options:
+## Testing the Options:
 
 To test yourself the options just call the `start.sh` command in the
 repository. `docker-compose` is required!
 
+```
+docker-compose -f rocketchat.yml up # Available at: localhost:3000
+docker-compose -f mattermost.yml up # Available at: localhost:8065
+docker-compose -f letschat.yml up   # Available at: localhost:8080
+```
 
+## Options without demos:
 
+* zulip
+* matrix
 
 ### [Rocket Chat](https://rocket.chat/)
 
