@@ -1,0 +1,8 @@
+version: '3'
+services:
+  db:
+    image: "mongo:3.0"
+  rocketchat:
+    image: rocket.chat
+    ports:
+     - "3000:3000"
