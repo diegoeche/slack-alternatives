@@ -11,10 +11,7 @@ Some bullet-points about licenses/costs of each solution:
 
 <table>
     <tr>
-        <th>Chat</th> <th>AD Integration</th> <th>Tech</th> <th>License</th> <th>Cost</th>
-    </tr>
-    <tr>
-        <td>Mattermost</td> <td>AD/LDAP</td> <td>Golang-React</td> <td>MIT</td> <td>Free But AD not included</td>
+        <th>Chat</th> <th>AD Integration</th> <th>Extensible?</th> <th>Tech</th> <th>License</th> <th>Cost</th>
     </tr>
     <tr>
         <td>Rocket Chat</td>
@@ -22,15 +19,25 @@ Some bullet-points about licenses/costs of each solution:
         <a href="https://forums.rocket.chat/t/kerberos-authentication-ldap-single-sign-on/653/3">Yes
         (LDAP or SAML)</a>
         </td>
+        <td>✓</td>
         <td>JS/Meteor</td>
         <td>MIT</td>
         <td>Free/Self-Hosted</td>
     </tr>
     <tr>
-        <td>Let's Chat</td> <td>LDAP/Kerberos</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
+        <td>Mattermost</td> <td>AD/LDAP</td> <td>✓</td> <td>Golang-React</td> <td>MIT</td> <td>Free But AD not included</td>
     </tr>
     <tr>
-        <td>Zulip</td> <td>YES</td> <td>Python</td> <td>Apache License 2.0</td> <td>Free/Self-Hosted</td>
+        <td>Zulip</td> <td>YES</td> <td>✓</td>  <td>Python</td> <td>Apache License 2.0</td> <td>Free/Self-Hosted</td>
+    </tr>
+    <tr>
+        <td>MS Teams</td> <td>YES</td> <td>✓</td> <td>N/A</td> <td>Commercial</td> <td>It Depends</td>
+    </tr>
+    <tr>
+        <td>Let's Chat</td> <td>LDAP/Kerberos</td> <td>X</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
+    </tr>
+    <tr>
+        <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
     </tr>
 </table>
 
@@ -52,31 +59,75 @@ docker-compose -f letschat.yml up   # Available at: localhost:8080
 
 ### [Rocket Chat](https://rocket.chat/)
 
+SaaS and self-hosted chat service written in NodeJS. Plugins for Pidgin/Drupal
+available but also iOS/Android/Desktop.
+
+Provides Webhook support, but also Hubot and other integrations like Google Calendar
+and Zapier.
+
 <img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-rocketchat.png" style="width: 70%"/>
 
 ### [Mattermost](https://mattermost.com/)
 
+SaaS with self-hosted "Team" option that is free. Is written in Golang, and works
+through a fremium model. AD integration is part of their "Enterprise" package at
+39/user/year.
+
+They have over 131 integrations including Hubot and Zapier.
+
+Mobile(iOS & Android) Desktop (Linux, Windows, Mac) clients available
+
 <img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-mattermost_0.png" style="width: 70%"/>
-
-### [Let's Chat](http://sdelements.github.io/lets-chat/)
-
-<img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-letschat.png" style="width: 70%"/>
 
 ### [Zulip](https://zulipchat.com/)
 
+Python open source group chat application with real-time chat and threaded
+conversations. All installation is around Ubuntu.
+
+It's extensible and provides over [90 native
+integrations](https://zulipchat.com/integrations/) Including IFTTT/Zapier/Hubot.
+
+They have a [Mobile App](https://github.com/zulip/zulip-mobile) written in
+React-Native for both Android and iOS
+
 <img src="https://cdn.slant.co/b3cd3fe2-8992-46b7-9a7f-2afdbc76bd5e/-/format/jpeg/-/progressive/yes/-/preview/2048x2048/" style="width: 70%"/>
+
+### [Let's Chat](http://sdelements.github.io/lets-chat/)
+
+NodeJS MIT licensed chat. Focused on small groups and with basic integrations for
+Hubot and authentications services like Kerberos, LDAP. The project is not actively
+developed nor maintained
+
+There isn't a native application for iOS nor Android. Only browser support.
+
+<img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-letschat.png" style="width: 70%"/>
 
 ### [Matrix](https://matrix.org/blog/home/)
 
+Matrix is a network for descentralized communication. It specifies a set of RESTful
+HTTP JSON APIs as an open standard and different clients support such
+specification. One of the clients is the [Riot.IM messaging](https://about.riot.im/)
+
 <img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-riot.png" style="width: 70%"/>
 
+## [Microsoft Teams](https://products.office.com/en-au/microsoft-teams/group-chat-software)
 
-<!-- ## [Microsoft Teams](https://products.office.com/en-au/microsoft-teams/group-chat-software) -->
-<!-- ## [Riot.IM Powered by Matrix](https://about.riot.im/) -->
-<!-- [Homepage](https://about.riot.im/) -->
+Microsoft's solution for real-time collaboration including chat and video-conferencing.
 
+Many apps are provided including
+[Hubot](https://github.com/Microsoft/BotFramework-Hubot) and
+[others](https://products.office.com/en-us/microsoft-teams/apps)
+
+Clients for iOS/Android Desktop Windows and OSX provided.
+
+Pricing oscillates between 8USD/month and 35usd/month. But there are other plans and
+it migth be already included with Office 365. [Special prices for education orgs
+apply](https://products.office.com/en-us/academic/compare-office-365-education-plans)
+
+<img src="https://c.s-microsoft.com/en-au/CMSImages/Hero_MSTeams_HP_960x600px.png?version=8e41c95a-ed34-24e0-c359-cb5f70e897dd" style="width: 70%"/>
 
 ## Sources #
 
 * [opensource.com](https://opensource.com/alternatives/slack)
 * [Slant](https://www.slant.co/topics/4554/~open-source-alternatives-to-slack)
+* [Awesome Self-Hosted](https://github.com/Kickball/awesome-selfhosted)
