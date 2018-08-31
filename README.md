@@ -29,7 +29,7 @@ Some bullet-points about licenses/costs of each solution:
         <td>1</td> <td>Mattermost</td> <td>AD/LDAP</td> <td>✓</td> <td>Good</td> <td>Golang-React</td> <td>MIT</td> <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>1</td> <td>Zulip</td> <td>YES</td> <td>✓</td> <td>Ok</td> <td>Python</td> <td>Apache License 2.0</td> <td>Free/BYOS</td>
+        <td>2</td> <td>Zulip</td> <td>YES</td> <td>✓</td> <td>Ok</td> <td>Python</td> <td>Apache License 2.0</td> <td>Free/BYOS</td>
     </tr>
     <tr>
         <td>2</td> <td>MS Teams</td> <td>YES</td> <td>✓</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>Depends</td>
