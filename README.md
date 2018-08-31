@@ -1,4 +1,4 @@
-# Slack Alternatives #
+# Slack Alternatives
 
 So slack is costly, centralized and way too necessary for your organization. Maybe
 you want to move to an open source alternative or you want to make sure your super
@@ -14,7 +14,7 @@ Some bullet-points about licenses/costs of each solution:
         <th>Chat</th> <th>AD Integration</th> <th>Extensible?</th> <th>Tech</th> <th>License</th> <th>Cost</th>
     </tr>
     <tr>
-        <td>Rocket Chat</td>
+        <td>Rocket.Chat</td>
         <td>
         <a href="https://forums.rocket.chat/t/kerberos-authentication-ldap-single-sign-on/653/3">Yes
         (LDAP or SAML)</a>
@@ -40,10 +40,13 @@ Some bullet-points about licenses/costs of each solution:
         <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
     </tr>
     <tr>
-        <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>N/A</td> <td>GNU AFFERO GENERALO</td> <td>SaaS/OS</td>
+        <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>N/A</td> <td>GNU AFFERO</td> <td>SaaS/OS</td>
     </tr>
     <tr>
         <td>Gitter</td> <td>Not Clear</td> <td>API</td> <td>N/A</td> <td>Commercial</td> <td>SaaS/Freemium</td>
+    </tr>
+    <tr>
+        <td>Flowdock</td> <td>Not Clear</td> <td>✓</td> <td>N/A</td> <td>Commercial</td> <td>SaaS</td>
     </tr>
 </table>
 
@@ -71,7 +74,13 @@ available but also iOS/Android/Desktop.
 Provides Webhook support, but also Hubot and other integrations like Google Calendar
 and Zapier.
 
-<img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-rocketchat.png" style="width: 70%"/>
+<img
+src="https://opensource.com/sites/default/files/uploads/slack-alternatives-rocketchat.png"
+style="width: 70%"/>
+
+### Users:
+
+Canonical, SteadyMD, Lisk, AEB (Brazilian Space Agency), Southeastern
 
 ### [Mattermost](https://mattermost.com/)
 
@@ -85,6 +94,10 @@ Mobile(iOS & Android) Desktop (Linux, Windows, Mac) clients available
 
 <img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-mattermost_0.png" style="width: 70%"/>
 
+### Users:
+
+Samsung, Virgin, DOD, Bristol-Myers Squibb, SAS, CERN
+
 ### [Zulip](https://zulipchat.com/)
 
 Python open source group chat application with real-time chat and threaded
@@ -96,25 +109,14 @@ integrations](https://zulipchat.com/integrations/) Including IFTTT/Zapier/Hubot.
 They have a [Mobile App](https://github.com/zulip/zulip-mobile) written in
 React-Native for both Android and iOS
 
-<img src="https://cdn.slant.co/b3cd3fe2-8992-46b7-9a7f-2afdbc76bd5e/-/format/jpeg/-/progressive/yes/-/preview/2048x2048/" style="width: 70%"/>
+<img
+src="https://cdn.slant.co/b3cd3fe2-8992-46b7-9a7f-2afdbc76bd5e/-/format/jpeg/-/progressive/yes/-/preview/2048x2048/"
+style="width: 70%"/>
 
-### [Let's Chat](http://sdelements.github.io/lets-chat/)
+### Users:
 
-NodeJS MIT licensed chat. Focused on small groups and with basic integrations for
-Hubot and authentications services like Kerberos, LDAP. The project is not actively
-developed nor maintained
+Akamai, dr on demand, LevelUp, RecurseCenter, Panjiva, Layershift, SolanoLabs, Veelo
 
-There isn't a native application for iOS nor Android. Only browser support.
-
-<img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-letschat.png" style="width: 70%"/>
-
-### [Matrix](https://matrix.org/blog/home/)
-
-Matrix is a network for descentralized communication. It specifies a set of RESTful
-HTTP JSON APIs as an open standard and different clients support such
-specification. One of the clients is the [Riot.IM messaging](https://about.riot.im/)
-
-<img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-riot.png" style="width: 70%"/>
 
 ## [Microsoft Teams](https://products.office.com/en-au/microsoft-teams/group-chat-software)
 
@@ -134,6 +136,10 @@ apply](https://products.office.com/en-us/academic/compare-office-365-education-p
 src="https://c.s-microsoft.com/en-au/CMSImages/Hero_MSTeams_HP_960x600px.png?version=8e41c95a-ed34-24e0-c359-cb5f70e897dd"
 style="width: 70%"/>
 
+### Users:
+
+https://stackshare.io/microsoft-teams
+
 ## [Wire](https://wire.com/en/)
 
 Communication service focused on security. It's cost is as low as 4USD/USER/Month and
@@ -146,6 +152,10 @@ Open Source.
 
 There are no extensions available.
 
+### Users:
+
+N/A
+
 ## [Gitter](https://gitter.im/)
 
 Commercial Chat solution with clients for iOS, Linux, Mac, Windows.
@@ -155,6 +165,52 @@ plan.
 
 There are [some integrations
 available])(https://gitlab.com/gitlab-org/gitter/webapp/blob/master/docs/integrations.md)
+
+### Users:
+
+Airbnb, AWS, Google, Microsoft, Mozilla Science Lab, Rails, Scala [and more](https://stackshare.io/gitter)
+
+## [Flowdock](https://www.flowdock.com/)
+
+Commercial communication solution from CA with clients for OSX, iOS, Android and
+Windows.
+
+Provides integration with [other third party
+apps](https://www.flowdock.com/integrations).
+
+The cost is as low as 3/USD/USER/Month
+
+### Users:
+
+N/A
+
+### [Let's Chat](http://sdelements.github.io/lets-chat/)
+
+NodeJS MIT licensed chat. Focused on small groups and with basic integrations for
+Hubot and authentications services like Kerberos, LDAP. The project is not actively
+developed nor maintained
+
+There isn't a native application for iOS nor Android. Only browser support.
+
+<img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-letschat.png" style="width: 70%"/>
+
+### Users:
+
+N/A
+
+### [Matrix](https://matrix.org/blog/home/)
+
+Matrix is a network for descentralized communication. It specifies a set of RESTful
+HTTP JSON APIs as an open standard and different clients support such
+specification. One of the clients is the [Riot.IM messaging](https://about.riot.im/)
+
+<img
+src="https://opensource.com/sites/default/files/uploads/slack-alternatives-riot.png"
+style="width: 70%"/>
+
+### Users:
+
+Mozilla, Ericsson, Amdocs, Deutsche Telekom, Thales
 
 ## Sources #
 
