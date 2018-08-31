@@ -47,7 +47,7 @@ Some bullet-points about licenses/costs of each solution:
     </tr>
 </table>
 
-## Testing the Options:
+## Testing Some Options:
 
 To test yourself the options just call the `start.sh` command in the
 repository. `docker-compose` is required!
