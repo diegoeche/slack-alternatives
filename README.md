@@ -11,42 +11,43 @@ Some bullet-points about licenses/costs of each solution:
 
 <table>
     <tr>
-        <th>Chat</th> <th>AD Integration</th> <th>Extensible?</th> <th>Tech</th> <th>License</th> <th>Cost</th>
+        <th>#</th> <th>Chat</th> <th>AD Integration</th> <th>Extensible</th> <th>Documentation</th> <th>Tech</th> <th>License</th> <th>Cost</th>
     </tr>
     <tr>
+        <td>1</td>
         <td>Rocket.Chat</td>
         <td>
-        <a href="https://forums.rocket.chat/t/kerberos-authentication-ldap-single-sign-on/653/3">Yes
-        (LDAP or SAML)</a>
+        <a href="https://forums.rocket.chat/t/kerberos-authentication-ldap-single-sign-on/653/3">Yes</a>
         </td>
         <td>✓</td>
+        <td>Good</td>
         <td>JS/Meteor</td>
         <td>MIT</td>
-        <td>Free/Self-Hosted</td>
+        <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>Mattermost</td> <td>AD/LDAP</td> <td>✓</td> <td>Golang-React</td> <td>MIT</td> <td>Free But AD not included</td>
+        <td>1</td> <td>Mattermost</td> <td>AD/LDAP</td> <td>✓</td> <td>Good</td> <td>Golang-React</td> <td>MIT</td> <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>Zulip</td> <td>YES</td> <td>✓</td>  <td>Python</td> <td>Apache License 2.0</td> <td>Free/Self-Hosted</td>
+        <td>1</td> <td>Zulip</td> <td>YES</td> <td>✓</td> <td>Ok</td> <td>Python</td> <td>Apache License 2.0</td> <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>MS Teams</td> <td>YES</td> <td>✓</td> <td>N/A</td> <td>Commercial</td> <td>It Depends</td>
+        <td>2</td> <td>MS Teams</td> <td>YES</td> <td>✓</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>Depends</td>
     </tr>
     <tr>
-        <td>Let's Chat</td> <td>LDAP/Kerberos</td> <td>X</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
+        <td>2</td> <td>Gitter</td> <td>Not Clear</td> <td>with API</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>SaaS</td>
     </tr>
     <tr>
-        <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
+        <td>2</td> <td>Flowdock</td> <td>Not Clear</td> <td>✓</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>SaaS</td>
     </tr>
     <tr>
-        <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>N/A</td> <td>GNU AFFERO</td> <td>SaaS/OS</td>
+        <td>4</td> <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Ok</td> <td>Node.js</td> <td>MIT</td> <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>Gitter</td> <td>Not Clear</td> <td>API</td> <td>N/A</td> <td>Commercial</td> <td>SaaS/Freemium</td>
+        <td>4</td> <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>Insufficient</td> <td>N/A</td> <td>GNU AFFERO</td> <td>SaaS/OS</td>
     </tr>
     <tr>
-        <td>Flowdock</td> <td>Not Clear</td> <td>✓</td> <td>N/A</td> <td>Commercial</td> <td>SaaS</td>
+        <td>5</td> <td>Let's Chat</td> <td>YES</td> <td>X</td> <td>Minimum</td> <td>Node.js</td> <td>MIT</td> <td>Free/BYOS</td>
     </tr>
 </table>
 
