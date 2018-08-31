@@ -39,6 +39,12 @@ Some bullet-points about licenses/costs of each solution:
     <tr>
         <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Node.js</td> <td>MIT</td> <td>Free/Self-Hosted</td>
     </tr>
+    <tr>
+        <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>N/A</td> <td>GNU AFFERO GENERALO</td> <td>SaaS/OS</td>
+    </tr>
+    <tr>
+        <td>Gitter</td> <td>Not Clear</td> <td>API</td> <td>N/A</td> <td>Commercial</td> <td>SaaS/Freemium</td>
+    </tr>
 </table>
 
 ## Testing the Options:
@@ -124,7 +130,31 @@ Pricing oscillates between 8USD/month and 35usd/month. But there are other plans
 it migth be already included with Office 365. [Special prices for education orgs
 apply](https://products.office.com/en-us/academic/compare-office-365-education-plans)
 
-<img src="https://c.s-microsoft.com/en-au/CMSImages/Hero_MSTeams_HP_960x600px.png?version=8e41c95a-ed34-24e0-c359-cb5f70e897dd" style="width: 70%"/>
+<img
+src="https://c.s-microsoft.com/en-au/CMSImages/Hero_MSTeams_HP_960x600px.png?version=8e41c95a-ed34-24e0-c359-cb5f70e897dd"
+style="width: 70%"/>
+
+## [Wire](https://wire.com/en/)
+
+Communication service focused on security. It's cost is as low as 4USD/USER/Month and
+although they have their [Backend
+Open-Sourced](https://github.com/wireapp/wire-server) there's no documentation on how
+to run it.
+
+It provides Mobile apps for Android/iOS/Linux/Windows/Browser. The clients are also
+Open Source.
+
+There are no extensions available.
+
+## [Gitter](https://gitter.im/)
+
+Commercial Chat solution with clients for iOS, Linux, Mac, Windows.
+
+It has a SaaS business model with the low price of 5usd/user. But also offers a free
+plan.
+
+There are [some integrations
+available])(https://gitlab.com/gitlab-org/gitter/webapp/blob/master/docs/integrations.md)
 
 ## Sources #
 
