@@ -11,7 +11,8 @@ Some bullet-points about licenses/costs of each solution:
 
 <table>
     <tr>
-        <th>#</th> <th>Chat</th> <th>AD Integration</th> <th>Extensible</th> <th>Documentation</th> <th>Tech</th> <th>License</th> <th>Cost</th>
+        <th>#</th> <th>Chat</th> <th>AD Integration</th> <th>Extensible</th>
+    <th>Documentation</th> <th>Tech</th> <th>License</th> <th>Mobile</th> <th>Cost</th>
     </tr>
     <tr>
         <td>1</td>
@@ -23,31 +24,39 @@ Some bullet-points about licenses/costs of each solution:
         <td>Good</td>
         <td>JS/Meteor</td>
         <td>MIT</td>
+        <td>✓</td>
+       <td>Free/BYOS</td>
+    </tr>
+    <tr>
+        <td>1</td> <td>Mattermost</td> <td>AD/LDAP</td> <td>✓</td> <td>Good</td>
+        <td>Golang-React</td> <td>MIT</td> <td>✓</td>
         <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>1</td> <td>Mattermost</td> <td>AD/LDAP</td> <td>✓</td> <td>Good</td> <td>Golang-React</td> <td>MIT</td> <td>Free/BYOS</td>
+        <td>2</td> <td>Zulip</td> <td>YES</td> <td>✓</td> <td>Ok</td> <td>Python</td>
+    <td>Apache License 2.0</td> <td>✓</td> <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>2</td> <td>Zulip</td> <td>YES</td> <td>✓</td> <td>Ok</td> <td>Python</td> <td>Apache License 2.0</td> <td>Free/BYOS</td>
+        <td>2</td> <td>MS Teams</td> <td>YES</td> <td>✓</td> <td>Good</td>
+    <td>N/A</td> <td>Commercial</td> <td>✓</td> <td>Depends</td>
     </tr>
     <tr>
-        <td>2</td> <td>MS Teams</td> <td>YES</td> <td>✓</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>Depends</td>
+        <td>2</td> <td>Gitter</td> <td>Not Clear</td> <td>with API</td> <td>Good</td> <td>N/A</td> <td>Commercial</td><td>✓</td> <td>SaaS</td>
     </tr>
     <tr>
-        <td>2</td> <td>Gitter</td> <td>Not Clear</td> <td>with API</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>SaaS</td>
+        <td>2</td> <td>Flowdock</td> <td>Not Clear</td> <td>✓</td> <td>Good</td>
+    <td>N/A</td> <td>Commercial</td> <td>✓</td> <td>SaaS</td>
     </tr>
     <tr>
-        <td>2</td> <td>Flowdock</td> <td>Not Clear</td> <td>✓</td> <td>Good</td> <td>N/A</td> <td>Commercial</td> <td>SaaS</td>
+        <td>4</td> <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Ok</td>
+    <td>Node.js</td> <td>MIT</td> <td>No</td> <td>Free/BYOS</td>
     </tr>
     <tr>
-        <td>4</td> <td>Matrix</td> <td>No</td> <td>Not Clear</td> <td>Ok</td> <td>Node.js</td> <td>MIT</td> <td>Free/BYOS</td>
+        <td>4</td> <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>Insufficient</td> <td>N/A</td> <td>GNU AFFERO</td><td>✓</td> <td>SaaS/OS</td>
     </tr>
     <tr>
-        <td>4</td> <td>Wire</td> <td>No</td> <td>Not Clear</td> <td>Insufficient</td> <td>N/A</td> <td>GNU AFFERO</td> <td>SaaS/OS</td>
-    </tr>
-    <tr>
-        <td>5</td> <td>Let's Chat</td> <td>YES</td> <td>X</td> <td>Minimum</td> <td>Node.js</td> <td>MIT</td> <td>Free/BYOS</td>
+        <td>5</td> <td>Let's Chat</td> <td>YES</td> <td>X</td> <td>Minimum</td>
+    <td>Node.js</td> <td>MIT</td> <td>No</td> <td>Free/BYOS</td>
     </tr>
 </table>
 
