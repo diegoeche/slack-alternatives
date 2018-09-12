@@ -102,6 +102,12 @@ They have over 131 integrations including Hubot and Zapier.
 
 Mobile(iOS & Android) Desktop (Linux, Windows, Mac) clients available
 
+For administration, [they support a CLI](https://docs.mattermost.com/administration/command-line-tools.html#mattermost-roles)
+
+There's an experimental feature for default channels a user should be added to:
+https://docs.mattermost.com/administration/config-settings.html#default-channels-experimental
+
+
 <img src="https://opensource.com/sites/default/files/uploads/slack-alternatives-mattermost_0.png" style="width: 70%"/>
 
 ### Users:
